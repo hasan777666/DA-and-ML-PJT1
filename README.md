@@ -26,10 +26,14 @@ Additionally, the study aims to translate analytical findings into practical, da
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 👥 Project Team
-Role	Team Member	Student ID	Responsibility
-🧭 Project Lead	Tursunaliev Hasanboy	202490339	Project coordination, architecture design, final integration & documentation
-📊 Data Analyst	Kim Stanislav	202490171	Data preprocessing, statistical summaries, RFM computation
-🤖 ML Engineer	Yun Yuriy	202490384	Clustering implementation, validation metrics, model evaluation
+
+| Role            | Team Member              | Student ID | Responsibility                                                               |
+| --------------- | ------------------------ | ---------- | ----------------------------------------------------------------------------  |
+| 🧭 Project Lead | **Tursunaliev Hasanboy** | 202490339  | Project coordination                                                         |
+| 📊 Data Analyst | **Kim Stanislav**        | 202490171  | Data preprocessing,                                                          |
+| 🤖 ML Engineer  | **Yun Yuriy**            | 202490384  | Clustering implementation                                                    |
+
+
 🗂 Dataset Description
 
 The project utilizes the Online Retail Transaction Dataset, which contains transactional data from an e-commerce platform.
