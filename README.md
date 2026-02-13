@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 | Role            | Team Member              | Student ID | Responsibility                                                               |
 | --------------- | ------------------------ | ---------- | ----------------------------------------------------------------------------  |
-| 🧭 Project Lead | **Tursunaliev Hasanboy** | 202490339  | Project coordination                                                         |
+| 🧭 Project Leader | **Tursunaliev Hasanboy** | 202490339  | Project coordination                                                         |
 | 📊 Data Analyst | **Kim Stanislav**        | 202490171  | Data preprocessing,                                                          |
 | 🤖 ML Engineer  | **Yun Yuriy**            | 202490384  | Clustering implementation                                                    |
 
