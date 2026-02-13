@@ -1,211 +1,158 @@
 # DA-and-ML-PJT1
-Отлично 😎 Делаем версию уровня A+ (Distinction / Excellent Grade) — более академичную, структурированную и профессиональную, как полноценный университетский аналитический проект.
-
-Ниже — усиленная версия, которую можно сразу использовать для сдачи или GitHub.
 
 📊 CAU Data Analytics Project
 Advanced Customer Segmentation & Sales Intelligence Analysis
 📌 Executive Summary
 
-This project presents a comprehensive analytical study of online retail transaction data. The primary objective is to explore purchasing patterns, evaluate customer value, and implement customer segmentation using quantitative methods and Machine Learning techniques.
+This project presents a comprehensive analytical study of online retail transaction data conducted as part of the Data Analytics course at CAU.
 
-Through systematic data preprocessing, exploratory analysis, RFM modeling, and K-Means clustering, the project identifies meaningful customer groups and provides actionable business recommendations aimed at revenue optimization and customer retention improvement.
+The primary objective is to analyze customer purchasing behavior, measure customer value using quantitative methods, and apply machine learning techniques for meaningful customer segmentation.
 
-The results demonstrate the practical application of data analytics methodologies in solving real-world business problems.
+Through structured preprocessing, statistical exploration, RFM modeling, and clustering algorithms, the project delivers actionable insights aimed at improving customer retention and revenue optimization.
 
 🎯 Project Objectives
 
-The project aims to:
+The key objectives of this project are to design and implement a structured analytical workflow that transforms raw transactional data into business intelligence.
 
-Perform structured data preprocessing and validation
+The project focuses on applying statistical reasoning, feature engineering, and unsupervised machine learning techniques to identify customer patterns and segment behavior effectively.
 
-Conduct in-depth exploratory data analysis (EDA)
-
-Calculate RFM metrics to measure customer value
-
-Apply unsupervised learning (K-Means Clustering)
-
-Evaluate clustering performance using validation metrics
-
-Generate business-focused recommendations
+Additionally, the study aims to translate analytical findings into practical, data-driven business recommendations.
 
 👥 Project Team
 Role	Team Member	Student ID	Responsibility
-🧭 Project Lead	Tursunaliev Hasanboy	202490339	Project coordination, architecture design, integration & documentation
-📊 Data Analyst	Kim Stanislav	202490171	Data preprocessing, statistical analysis, RFM computation
-🤖 ML Engineer	Yun Yuriy	202490384	Clustering implementation, model validation, performance evaluation
+🧭 Project Lead	Tursunaliev Hasanboy	202490339	Project coordination, architecture design, final integration & documentation
+📊 Data Analyst	Kim Stanislav	202490171	Data preprocessing, statistical summaries, RFM computation
+🤖 ML Engineer	Yun Yuriy	202490384	Clustering implementation, validation metrics, model evaluation
 🗂 Dataset Description
 
-Online Retail Transaction Dataset
+The project utilizes the Online Retail Transaction Dataset, which contains transactional data from an e-commerce platform.
 
-The dataset contains transactional records including:
+The dataset includes variables such as invoice number, product information, quantity, pricing, customer identification, and geographic location.
 
-InvoiceNo
-
-StockCode
-
-Description
-
-Quantity
-
-InvoiceDate
-
-UnitPrice
-
-CustomerID
-
-Country
-
-The dataset represents real-world e-commerce transactions and includes multiple countries and customer segments.
+These attributes enable multi-dimensional analysis of customer behavior and revenue generation patterns.
 
 ⚙️ Methodology
+
+The project follows a structured analytical pipeline to ensure methodological clarity and reproducibility.
+
+Each stage builds upon the previous one, transforming raw data into strategic business insights.
+
 🔹 1. Data Preprocessing
 
-Handling missing values (CustomerID, Description)
+The preprocessing stage focuses on improving data quality and reliability.
 
-Removing duplicate records
+Missing values and duplicate records are handled systematically to ensure dataset integrity.
 
-Filtering negative values (cancelled transactions)
+Negative values corresponding to cancelled transactions are filtered out to maintain transactional accuracy.
 
-Converting InvoiceDate into datetime format
+InvoiceDate is converted into datetime format to enable time-series analysis.
 
-Creating Revenue feature (Quantity × UnitPrice)
-
-Outlier detection and treatment
+A new feature, Revenue (Quantity × UnitPrice), is created to quantify financial contribution.
 
 🔹 2. Exploratory Data Analysis (EDA)
 
-Time-series revenue analysis
+Exploratory analysis is conducted to understand distribution patterns and trends.
 
-Country-level sales comparison
+Time-based revenue trends are examined to identify seasonal effects and growth patterns.
 
-Identification of top-performing products
+Country-level comparisons highlight geographical sales performance differences.
 
-Revenue distribution analysis
+Top-performing products are identified based on revenue contribution.
 
-Customer purchase frequency patterns
-
-Key statistical indicators were used:
-
-Mean
-
-Median
-
-Standard deviation
-
-Distribution plots
+Statistical metrics such as mean, median, and standard deviation are used to summarize data characteristics.
 
 🔹 3. RFM Analysis
 
-Each customer was evaluated using:
+RFM modeling is applied to evaluate customer value using three core metrics.
 
-Recency (R): Days since last purchase
+Recency measures the time since the last purchase.
 
-Frequency (F): Number of transactions
+Frequency calculates the number of transactions per customer.
 
-Monetary (M): Total revenue generated
+Monetary represents the total revenue generated by each customer.
 
-Customers were scored and grouped based on RFM values to measure overall business impact.
+Customers are scored and categorized based on their RFM profiles to determine overall engagement and profitability.
 
 🔹 4. Machine Learning Implementation
-Data Scaling
 
-StandardScaler was applied to normalize RFM values.
+To ensure comparability across features, data normalization is performed using StandardScaler.
 
-Optimal Cluster Selection
+The optimal number of clusters is determined using the Elbow Method and Silhouette Score analysis.
 
-Elbow Method
+The K-Means clustering algorithm is then applied to segment customers into distinct behavioral groups.
 
-Silhouette Score
-
-Clustering Model
-
-K-Means algorithm
-
-Cluster labeling and interpretation
+Cluster visualization techniques are used to interpret and validate segmentation quality.
 
 📊 Model Evaluation
 
-The clustering performance was assessed using:
+Clustering performance is evaluated using quantitative metrics to ensure robustness.
 
-Inertia (Within-cluster sum of squares)
+Inertia values are analyzed to measure within-cluster variance.
 
-Silhouette Score
+Silhouette Score is used to assess cluster separation and cohesion.
 
-Visual cluster separation
-
-The model demonstrated clear segmentation with distinguishable customer groups.
+The results demonstrate meaningful segmentation with clear differentiation between customer groups.
 
 📈 Customer Segments Identified
 
-The analysis revealed several meaningful segments:
+The analytical process revealed several distinct customer segments.
 
-🏆 Champions (High R, High F, High M)
+Champions represent high-value customers with strong engagement and revenue contribution.
 
-💎 Loyal Customers
+Loyal Customers show consistent purchasing behavior over time.
 
-🛍 Occasional Buyers
+Occasional Buyers demonstrate moderate activity and growth potential.
 
-⚠️ At-Risk Customers
+At-Risk Customers require re-engagement strategies to prevent churn.
 
-🆕 New Customers
-
-Each segment was analyzed in terms of revenue contribution and engagement level.
+New Customers represent acquisition success and future potential.
 
 💼 Business Recommendations
 
-Based on analytical findings:
+Based on analytical findings, strategic actions are proposed.
 
-Implement loyalty programs for high-value customers
+High-value customers should be targeted with loyalty programs and exclusive offers.
 
-Launch re-engagement campaigns for at-risk customers
+At-risk customers should receive personalized re-engagement campaigns.
 
-Personalize marketing for frequent buyers
+Marketing strategies should be optimized based on purchasing frequency and revenue contribution patterns.
 
-Optimize product strategies based on revenue drivers
-
-These strategies can increase customer lifetime value (CLV) and improve retention rates.
+Data-driven decision-making can significantly enhance customer lifetime value and long-term profitability.
 
 🛠 Tools & Technologies
 
-Python
+The project was implemented using Python and industry-standard data science libraries.
 
-Pandas
+Pandas and NumPy were used for data manipulation and numerical analysis.
 
-NumPy
+Matplotlib and Seaborn were applied for data visualization.
 
-Matplotlib
+Scikit-learn was utilized for machine learning modeling and evaluation.
 
-Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
+All analysis was conducted in a Jupyter Notebook environment.
 
 📁 Repository Structure
 CAU-Data-Analytics-Project/
 │
-├── data/
-├── notebooks/
-├── src/
-├── reports/
-├── visuals/
-└── README.md
+├── data/               # Raw and processed datasets
+├── notebooks/          # Jupyter notebooks
+├── src/                # Python scripts
+├── reports/            # Analytical reports
+├── visuals/            # Charts and visual outputs
+└── README.md           # Project documentation
 
 🏆 Academic Contribution
 
-This project demonstrates:
+This project demonstrates the integration of statistical analysis and machine learning techniques in solving real-world business problems.
 
-Application of statistical analysis techniques
+It reflects strong analytical reasoning, methodological rigor, and structured problem-solving skills.
 
-Implementation of unsupervised machine learning
-
-Real-world business problem solving
-
-Analytical reasoning and data-driven decision making
+The study highlights how data analytics can transform raw transactional data into strategic intelligence.
 
 ✅ Conclusion
 
-The project successfully identified key customer segments and provided strategic insights for improving revenue and customer retention.
+The CAU Data Analytics Project successfully identified meaningful customer segments and generated strategic insights.
 
-By integrating statistical analysis with machine learning techniques, the study highlights the importance of data analytics in modern business decision-making.
+By combining statistical methods with unsupervised machine learning, the project illustrates the practical value of data analytics in business decision-making.
+
+The results provide a foundation for targeted marketing, improved retention strategies, and sustainable revenue growth.
