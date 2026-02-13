@@ -1,11 +1,11 @@
 # DA-and-ML-PJT1
 
-📊 CAU Data Analytics Project 
+📊 **CAU Data Analytics Project** 
 Advanced Customer Segmentation & Sales Intelligence Analysis
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-📌 Executive Summary
+📌 **Executive Summary**
 
 This project presents a comprehensive analytical study of online retail transaction data conducted as part of the Data Analytics course at CAU.
 
@@ -15,7 +15,7 @@ Through structured preprocessing, statistical exploration, RFM modeling, and clu
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🎯 Project Objectives
+🎯 **Project Objectives**
 
 The key objectives of this project are to design and implement a structured analytical workflow that transforms raw transactional data into business intelligence.
 
@@ -25,7 +25,7 @@ Additionally, the study aims to translate analytical findings into practical, da
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-👥 Project Team
+👥 **Project Team**
 
 | Role            | Team Member              | Student ID | Responsibility                                                               |
 | --------------- | ------------------------ | ---------- | ----------------------------------------------------------------------------  |
@@ -33,8 +33,9 @@ ________________________________________________________________________________
 | 📊 Data Analyst | **Kim Stanislav**        | 202490171  | Data preprocessing,                                                          |
 | 🤖 ML Engineer  | **Yun Yuriy**            | 202490384  | Clustering implementation                                                    |
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🗂 Dataset Description
+🗂 **Dataset Description**
 
 The project utilizes the Online Retail Transaction Dataset, which contains transactional data from an e-commerce platform.
 
@@ -44,7 +45,7 @@ These attributes enable multi-dimensional analysis of customer behavior and reve
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-⚙️ Methodology
+⚙️ **Methodology**
 
 The project follows a structured analytical pipeline to ensure methodological clarity and reproducibility.
 
@@ -52,7 +53,7 @@ Each stage builds upon the previous one, transforming raw data into strategic bu
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🔹 1. Data Preprocessing
+🔹 **1. Data Preprocessing**
 
 The preprocessing stage focuses on improving data quality and reliability.
 
@@ -66,7 +67,7 @@ A new feature, Revenue (Quantity × UnitPrice), is created to quantify financial
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🔹 2. Exploratory Data Analysis (EDA)
+🔹 **2. Exploratory Data Analysis (EDA)**
 
 Exploratory analysis is conducted to understand distribution patterns and trends.
 
@@ -80,7 +81,7 @@ Statistical metrics such as mean, median, and standard deviation are used to sum
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🔹 3. RFM Analysis
+🔹 **3. RFM Analysis**
 
 RFM modeling is applied to evaluate customer value using three core metrics.
 
@@ -94,7 +95,7 @@ Customers are scored and categorized based on their RFM profiles to determine ov
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🔹 4. Machine Learning Implementation
+🔹 **4. Machine Learning Implementation**
 
 To ensure comparability across features, data normalization is performed using StandardScaler.
 
@@ -106,9 +107,7 @@ Cluster visualization techniques are used to interpret and validate segmentation
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-📊 Model Evaluation
-
-_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+📊 **Model Evaluation**
 
 Clustering performance is evaluated using quantitative metrics to ensure robustness.
 
@@ -118,9 +117,9 @@ Silhouette Score is used to assess cluster separation and cohesion.
 
 The results demonstrate meaningful segmentation with clear differentiation between customer groups.
 
-📈 Customer Segments Identified
-
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+📈 **Customer Segments Identified**
 
 The analytical process revealed several distinct customer segments.
 
@@ -134,9 +133,9 @@ At-Risk Customers require re-engagement strategies to prevent churn.
 
 New Customers represent acquisition success and future potential.
 
-💼 Business Recommendations
-
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+💼 **Business Recommendations**
 
 Based on analytical findings, strategic actions are proposed.
 
@@ -150,7 +149,7 @@ Data-driven decision-making can significantly enhance customer lifetime value an
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🛠 Tools & Technologies
+🛠 **Tools & Technologies**
 
 The project was implemented using Python and industry-standard data science libraries.
 
@@ -164,7 +163,7 @@ All analysis was conducted in a Jupyter Notebook environment.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-📁 Repository Structure
+📁 **Repository Structure**
 CAU-Data-Analytics-Project/
 │
 ├── data/               # Raw and processed datasets
@@ -176,9 +175,7 @@ CAU-Data-Analytics-Project/
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🏆 Academic Contribution
-
-_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+🏆 **Academic Contribution**
 
 This project demonstrates the integration of statistical analysis and machine learning techniques in solving real-world business problems.
 
@@ -188,7 +185,7 @@ The study highlights how data analytics can transform raw transactional data int
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-✅ Conclusion
+**✅ Conclusion**
 
 The CAU Data Analytics Project successfully identified meaningful customer segments and generated strategic insights.
 
